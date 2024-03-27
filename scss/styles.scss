@@ -1,17 +1,71 @@
 $navbarColor: #5474fd;
 $footerColor: #232323;
-$textColor: #fffff;
+$textColor: white;
 
 .aleo-font > {
   font-family: "Aleo", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
 .josefin-sans-font > {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+}
+
+header {
+  background-image: url(../images/image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.navbar {
+  background-color: $navbarColor;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: $textColor;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 9999;
+
+  label {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 400px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin: 20px;
+
+      a {
+        color: $textColor;
+        text-decoration: none;
+        display: inline;
+        text-align: center;
+        padding: 14px 16px;
+        margin-right: 100px;
+        font-size: 14px;
+        line-height: 26px;
+        &:hover {
+          text-decoration-line: line-through;
+        }
+      }
+    }
+  }
 }
