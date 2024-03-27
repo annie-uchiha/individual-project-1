@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 60px;
+}
+
 .navbar {
   background-color: #5474fd;
   overflow: hidden;
@@ -115,4 +119,35 @@
 }
 .scroll-down-arrow:hover {
   transform: rotateY(45deg);
+}
+
+.second-section {
+  background-image: url(../images/why-choose-us-section-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.second-section .second-section__h1 {
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 350px;
+}
+.second-section .second-section__p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+  width: 560px;
+}
+.second-section .second-section__img1 {
+  margin-top: 230px;
+}
+.second-section .second-section__img2 {
+  margin-top: 460px;
+  transform: translateX(-260px);
 }
