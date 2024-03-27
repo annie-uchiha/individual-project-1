@@ -19,6 +19,7 @@
 .navbar label {
   font-size: 24px;
   font-weight: 700;
+  letter-spacing: 2.4px;
   margin-left: 400px;
 }
 .navbar ul {
@@ -43,17 +44,67 @@
 }
 
 .top-page {
-  background-image: url(../images/top-page__img.png);
-  background: no-repeat;
-  background-size: 100%;
   text-align: center;
+  border: 1px solid transparent;
+  height: 100vh;
+  background-image: url(../images/top-page__img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 .top-page .top-page__h1 {
   font-weight: 700;
   font-size: 48px;
+  letter-spacing: 4.8px;
+  margin-top: 400px;
 }
 .top-page .top-page__h2 {
   font-weight: 400;
   font-size: 22px;
-  letter-spacing: 8px;
+  letter-spacing: 6.82px;
+}
+.top-page .top-page__search-input {
+  width: 653px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  text-align: center;
+}
+.top-page .top-page__search-btn {
+  background-color: #5474fd;
+  border: 2px solid white;
+  width: 153px;
+  height: 63px;
+  color: white;
+  letter-spacing: 1.4px;
+}
+
+.fa {
+  color: white;
+}
+.fahover {
+  color: #5474fd;
+}
+
+.top-page__scroll-down {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 350px;
+}
+.top-page__scroll-down:hover {
+  text-decoration: line-through;
+}
+
+.scroll-down-arrow {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.scroll-down-arrow:hover {
+  transform: rotateY(45deg);
 }
