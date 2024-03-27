@@ -20,6 +20,8 @@ html {
   font-style: normal;
 }
 
+/*NAVBAR*/
+
 .navbar {
   background-color: $navbarColor;
   overflow: hidden;
@@ -37,9 +39,14 @@ html {
   -ms-flex-align: center;
   align-items: center;
   z-index: 9999;
+  transition: transform 0.3s;
+
+  &.hidden {
+    transform: translateY(100%);
+  }
 
   label {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 2.4px;
     margin-left: 400px;
@@ -59,7 +66,7 @@ html {
         text-align: center;
         padding: 14px 16px;
         margin-right: 100px;
-        font-size: 14px;
+        font-size: 1rem;
         line-height: 26px;
 
         &:hover {
@@ -70,6 +77,8 @@ html {
     }
   }
 }
+
+/*TOP PAGE - FIRST SECTION*/
 
 .top-page {
   text-align: center;
@@ -83,14 +92,14 @@ html {
 
   .top-page__h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     letter-spacing: 4.8px;
     margin-top: 400px;
   }
 
   .top-page__h2 {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.4rem;
     letter-spacing: 6.82px;
   }
 
@@ -98,7 +107,7 @@ html {
     width: 653px;
     height: 63px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: 2.8px;
     color: #999999;
     text-align: center;
@@ -132,7 +141,7 @@ html {
 
 .top-page__scroll-down {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 2.8px;
   color: $textColor;
   cursor: pointer;
@@ -152,6 +161,8 @@ html {
     transform: rotateY(45deg);
   }
 }
+
+/*SECOND SECTION*/
 
 .second-section {
   background-image: url(../images/why-choose-us-section-2.png);
@@ -173,13 +184,13 @@ html {
 
   .second-section__h1 {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-top: 350px;
   }
 
   .second-section__p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.2rem;
     letter-spacing: 1.6px;
     color: #e8e8e8;
     width: 560px;
@@ -193,5 +204,20 @@ html {
     -webkit-transform: translateX(-260px);
     -ms-transform: translateX(-260px);
     transform: translateX(-260px);
+  }
+}
+
+/*THIRD SECTION*/
+
+.third-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+  .third-section__h2 {
+    color: #e8e8e8;
+    font-size: 2.25rem;
+    font-weight: 400;
   }
 }
