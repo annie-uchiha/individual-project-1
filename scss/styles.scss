@@ -215,6 +215,11 @@ html {
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 40px;
+  &:hover{
+    border: 10px solid #496bfe;
+    -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+      box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+  }
 }
 
 /*THIRD SECTION*/
