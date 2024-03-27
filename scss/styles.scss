@@ -16,12 +16,6 @@ $textColor: white;
   font-style: normal;
 }
 
-header {
-  background-image: url(../images/image\ 1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .navbar {
   background-color: $navbarColor;
   overflow: hidden;
@@ -62,10 +56,29 @@ header {
         margin-right: 100px;
         font-size: 14px;
         line-height: 26px;
+
         &:hover {
           text-decoration-line: line-through;
         }
       }
     }
+  }
+}
+
+.top-page {
+  background-image: url(../images/top-page__img.png);
+  background: no-repeat;
+  background-size: 100%;
+  text-align: center;
+
+  .top-page__h1 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  .top-page__h2 {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 8px;
   }
 }

@@ -1,9 +1,3 @@
-header {
-  background-image: url(../images/image\ 1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .navbar {
   background-color: #5474fd;
   overflow: hidden;
@@ -46,4 +40,20 @@ header {
 }
 .navbar ul li a:hover {
   text-decoration-line: line-through;
+}
+
+.top-page {
+  background-image: url(../images/top-page__img.png);
+  background: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+.top-page .top-page__h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.top-page .top-page__h2 {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 8px;
 }
