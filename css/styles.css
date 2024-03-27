@@ -75,8 +75,7 @@ html {
   margin-bottom: 5px;
 }
 .scroll-down-arrow:hover {
-  -webkit-transform: rotateY(45deg);
-  transform: rotateY(45deg);
+  scale: 2;
 }
 
 /*NAVBAR*/
@@ -217,6 +216,36 @@ html {
   font-size: 1.25rem;
 }
 .section-4 .section-4__container .section-4__p {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/*SECTION FIVE*/
+.section-5 {
+  background-image: url(../images/section-5-spain-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: #e8e8e8;
+}
+.section-5 .section-5__container {
+  background-color: rgba(35, 35, 35, 0.9176470588);
+  width: 543px;
+  height: 374px;
+  padding: 20px;
+  transform: translateY(100px) translateX(1100px);
+}
+.section-5 .section-5__container .section-5__h4 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+}
+.section-5 .section-5__container .section-5__h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.section-5 .section-5__container .section-5__p {
   font-weight: 400;
   font-size: 1.2rem;
 }
