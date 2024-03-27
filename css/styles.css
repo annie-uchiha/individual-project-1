@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 60px;
+  scroll-padding-top: 100px;
 }
 
 .navbar {
@@ -44,6 +44,7 @@ html {
   line-height: 26px;
 }
 .navbar ul li a:hover {
+  -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
 
@@ -118,6 +119,7 @@ html {
   margin-bottom: 5px;
 }
 .scroll-down-arrow:hover {
+  -webkit-transform: rotateY(45deg);
   transform: rotateY(45deg);
 }
 
@@ -128,8 +130,15 @@ html {
   height: 100vh;
   padding: 20px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .second-section .second-section__h1 {
@@ -149,5 +158,7 @@ html {
 }
 .second-section .second-section__img2 {
   margin-top: 460px;
+  -webkit-transform: translateX(-260px);
+  -ms-transform: translateX(-260px);
   transform: translateX(-260px);
 }
