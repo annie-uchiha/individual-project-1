@@ -101,11 +101,19 @@ $textColor: white;
 
   .top-page__search-btn {
     background-color: #5474fd;
-    border: 2px solid white;
+    border: 1px solid white;
+    -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+    box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
     width: 153px;
     height: 63px;
     color: $textColor;
     letter-spacing: 1.4px;
+    cursor: pointer;
+    &:hover {
+      -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+      box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74) inset;
+      border: none;
+    }
   }
 }
 
