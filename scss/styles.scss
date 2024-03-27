@@ -2,6 +2,9 @@ $navbarColor: #5474fd;
 $footerColor: #232323;
 $textColor: white;
 
+$direction: to right;
+$colors: #496bfe, #5474fd;
+
 html {
   scroll-padding-top: 100px;
 }
@@ -20,70 +23,13 @@ html {
   font-style: normal;
 }
 
-/*NAVBAR*/
-
-.navbar {
-  background-color: $navbarColor;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: $textColor;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  z-index: 9999;
-  transition: transform 0.3s;
-
-  &.hidden {
-    transform: translateY(100%);
-  }
-
-  label {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 2.4px;
-    margin-left: 400px;
-  }
-
-  ul {
-    list-style: none;
-
-    li {
-      display: inline-block;
-      margin: 20px;
-
-      a {
-        color: $textColor;
-        text-decoration: none;
-        display: inline;
-        text-align: center;
-        padding: 14px 16px;
-        margin-right: 100px;
-        font-size: 1rem;
-        line-height: 26px;
-
-        &:hover {
-          -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-        }
-      }
-    }
-  }
-}
-
 /*TOP PAGE - FIRST SECTION*/
 
 .top-page {
   text-align: center;
   border: 1px solid transparent;
-  height: 100vh;
+  width: 100%;
+  height: 88vh;
   background-image: url(../images/top-page__img.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +40,7 @@ html {
     font-weight: 700;
     font-size: 3rem;
     letter-spacing: 4.8px;
-    margin-top: 400px;
+    padding-top: 400px;
   }
 
   .top-page__h2 {
@@ -123,6 +69,7 @@ html {
     color: $textColor;
     letter-spacing: 1.4px;
     cursor: pointer;
+
     &:hover {
       -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
       box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74) inset;
@@ -145,7 +92,7 @@ html {
   letter-spacing: 2.8px;
   color: $textColor;
   cursor: pointer;
-  margin-top: 350px;
+  margin-top: 150px;
 
   &:hover {
     text-decoration: line-through;
@@ -162,13 +109,64 @@ html {
   }
 }
 
+/*NAVBAR*/
+
+.navbar {
+  background-color: $navbarColor;
+  width: 100%;
+  color: $textColor;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 2;
+
+  label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin-left: 400px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin: 20px;
+
+      a {
+        color: $textColor;
+        text-decoration: none;
+        display: inline;
+        text-align: center;
+        padding: 14px 16px;
+        margin-right: 100px;
+        font-size: 1rem;
+        line-height: 26px;
+        float: left;
+
+        &:hover {
+          -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+        }
+      }
+    }
+  }
+}
+
 /*SECOND SECTION*/
 
 .second-section {
   background-image: url(../images/why-choose-us-section-2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
   padding: 20px;
   color: $textColor;
   display: -webkit-box;
@@ -185,7 +183,7 @@ html {
   .second-section__h1 {
     font-weight: 400;
     font-size: 2.25rem;
-    margin-top: 350px;
+    padding-top: 200px;
   }
 
   .second-section__p {
@@ -197,14 +195,27 @@ html {
   }
 
   .second-section__img1 {
-    margin-top: 230px;
+    padding-top: 85px;
   }
+
   .second-section__img2 {
-    margin-top: 460px;
+    padding-top: 320px;
     -webkit-transform: translateX(-260px);
     -ms-transform: translateX(-260px);
     transform: translateX(-260px);
   }
+}
+
+.blue-gradient-btn {
+  width: 228px;
+  height: 63px;
+  background: linear-gradient($direction, $colors);
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 40px;
 }
 
 /*THIRD SECTION*/
@@ -219,5 +230,39 @@ html {
     color: #e8e8e8;
     font-size: 2.25rem;
     font-weight: 400;
+    padding: 140px;
+  }
+}
+
+/*SECTION FOUR*/
+
+.section-4 {
+  background-image: url(../images/section-4-spain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: #e8e8e8;
+
+  .section-4__container {
+    background-color: #232323bb;
+    width: 543px;
+    height: 374px;
+    padding: 20px;
+    transform: translateY(100px) translateX(500px);
+
+    .section-4__h4 {
+      font-weight: 400;
+      font-size: 1.25rem;
+      letter-spacing: 1.5px;
+    }
+    .section-4__h3 {
+      font-weight: 400;
+      font-size: 1.25rem;
+    }
+    .section-4__p {
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
   }
 }
