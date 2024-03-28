@@ -24,3 +24,6 @@ Criteria:
 * It should be responsive
 
 * The form should have a validation
+
+All criteria are met
+End of module HTML - CSS
