@@ -53,8 +53,8 @@ html {
   font-size: 1.5rem;
 }
 
-.fs2-25 {
-  font-size: 2 rem;
+.fs2-50 {
+  font-size: 2.5rem;
 }
 
 .fs3 {
@@ -119,13 +119,16 @@ html {
 }
 
 .top-page__scroll-down {
-  letter-spacing: 2.8px;
-  color: $textColor;
   cursor: pointer;
   margin-top: 150px;
 
   &:hover {
     text-decoration: line-through;
+  }
+  a {
+    text-decoration: none;
+    letter-spacing: 2.8px;
+    color: $textColor;
   }
 }
 
@@ -231,11 +234,20 @@ html {
 .blue-gradient-btn {
   width: 228px;
   height: 63px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($direction),
+    to($colors)
+  );
+  background: -o-linear-gradient($direction, $colors);
   background: linear-gradient($direction, $colors);
   border: none;
   color: white;
   cursor: pointer;
   margin-top: 40px;
+
   &:hover {
     border: 10px solid #496bfe;
     -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
@@ -246,10 +258,28 @@ html {
 //THIRD SECTION
 
 .third-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
+  display: block;
+
+  .third-section__line {
+    width: 777px;
+    height: 99px;
+    margin-top: 40px;
+    margin-left: 1000px;
+  }
+
+  .third-section__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   .third-section__h2 {
     color: #e8e8e8;
@@ -272,7 +302,10 @@ html {
     width: 543px;
     height: 374px;
     padding: 20px;
-    transform: translateY(100px) translateX(500px);
+    margin-left: 25%;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
 
     .section-4__h4 {
       letter-spacing: 1.5px;
@@ -295,7 +328,10 @@ html {
     width: 543px;
     height: 374px;
     padding: 20px;
-    transform: translateY(100px) translateX(1100px);
+    margin-left: 50%;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
 
     .section-5__h4 {
       letter-spacing: 1.5px;
@@ -311,12 +347,49 @@ html {
   background-size: cover;
   background-position: center;
   height: 800px;
-  margin-block-start: -25px;
+  -webkit-margin-before: -28px;
+  margin-block-start: -28px;
   color: $textColor;
   text-align: center;
 
   .section-6-testimonials__h1 {
     padding-top: 80px;
+  }
+
+  .section-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .section-6-testimonials__testimonial {
+    background-color: #333333;
+    width: 668px;
+    height: 287px;
+    padding: 40px;
+
+    .section-6-testimonials__h3 {
+      text-align: left;
+    }
+
+    p {
+      width: 581px;
+      height: 165px;
+      line-height: 26px;
+
+      .quote {
+        color: #5474fd;
+        font-size: 3.5rem;
+        padding-right: 15px;
+      }
+    }
   }
 }
 
@@ -340,5 +413,11 @@ html {
   }
 
   .footer__social {
+    font-size: 2rem;
+
+    a {
+      color: white;
+      padding: 10px;
+    }
   }
 }
