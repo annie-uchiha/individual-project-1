@@ -188,8 +188,8 @@ html {
 .blue-gradient-btn {
   width: 228px;
   height: 63px;
-  background: -webkit-gradient(linear, left top, left bottom, from(to right), to(#496bfe, #5474fd));
   background: -o-linear-gradient(to right, #496bfe, #5474fd);
+  background: -webkit-gradient(linear, left top, left bottom, from(to right), to(#496bfe, #5474fd));
   background: linear-gradient(to right, #496bfe, #5474fd);
   border: none;
   color: white;
@@ -206,10 +206,37 @@ html {
   display: block;
 }
 .third-section .third-section__line {
-  width: 777px;
+  width: 800px;
   height: 99px;
   margin-top: 40px;
-  margin-left: 35%;
+  margin-left: 35.6%;
+}
+.third-section .third-section__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: white;
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.third-section .third-section__icons .fa-magnifying-glass {
+  color: #5474fd;
+}
+.third-section .third-section__icons .fa-circle-check {
+  color: #ff6363;
+  margin: 0 15%;
+}
+.third-section .third-section__icons .fa-thumbs-up {
+  color: #00a2ff;
 }
 .third-section .third-section__container {
   display: -webkit-box;

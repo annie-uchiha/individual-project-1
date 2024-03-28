@@ -234,6 +234,7 @@ html {
 .blue-gradient-btn {
   width: 228px;
   height: 63px;
+  background: -o-linear-gradient($direction, $colors);
   background: -webkit-gradient(
     linear,
     left top,
@@ -241,7 +242,6 @@ html {
     from($direction),
     to($colors)
   );
-  background: -o-linear-gradient($direction, $colors);
   background: linear-gradient($direction, $colors);
   border: none;
   color: white;
@@ -261,10 +261,41 @@ html {
   display: block;
 
   .third-section__line {
-    width: 777px;
+    width: 800px;
     height: 99px;
     margin-top: 40px;
-    margin-left: 35%;
+    margin-left: 35.6%;
+  }
+
+  .third-section__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+
+    .fa-magnifying-glass {
+      color: #5474fd;
+    }
+
+    .fa-circle-check {
+      color: #ff6363;
+      margin: 0 15%;
+    }
+
+    .fa-thumbs-up {
+      color: #00a2ff;
+    }
   }
 
   .third-section__container {
