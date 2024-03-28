@@ -2,7 +2,42 @@ html {
   scroll-padding-top: 100px;
 }
 
-/*TOP PAGE - FIRST SECTION*/
+.fw400 {
+  font-weight: 400;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fs1 {
+  font-size: 1rem;
+}
+
+.fs1-2 {
+  font-size: 1.2rem;
+}
+
+.fs1-25 {
+  font-size: 1.25rem;
+}
+
+.fs1-4 {
+  font-size: 1.4rem;
+}
+
+.fs1-5 {
+  font-size: 1.5rem;
+}
+
+.fs2-25 {
+  font-size: 2 rem;
+}
+
+.fs3 {
+  font-size: 3rem;
+}
+
 .top-page {
   text-align: center;
   border: 1px solid transparent;
@@ -15,21 +50,15 @@ html {
   color: white;
 }
 .top-page .top-page__h1 {
-  font-weight: 700;
-  font-size: 3rem;
   letter-spacing: 4.8px;
   padding-top: 400px;
 }
 .top-page .top-page__h2 {
-  font-weight: 400;
-  font-size: 1.4rem;
   letter-spacing: 6.82px;
 }
 .top-page .top-page__search-input {
   width: 653px;
   height: 63px;
-  font-weight: 400;
-  font-size: 1rem;
   letter-spacing: 2.8px;
   color: #999999;
   text-align: center;
@@ -59,8 +88,6 @@ html {
 }
 
 .top-page__scroll-down {
-  font-weight: 400;
-  font-size: 1rem;
   letter-spacing: 2.8px;
   color: white;
   cursor: pointer;
@@ -78,7 +105,6 @@ html {
   scale: 2;
 }
 
-/*NAVBAR*/
 .navbar {
   background-color: #5474fd;
   width: 100%;
@@ -95,8 +121,6 @@ html {
   z-index: 2;
 }
 .navbar label {
-  font-size: 1.5rem;
-  font-weight: 700;
   letter-spacing: 2.4px;
   margin-left: 400px;
 }
@@ -114,7 +138,6 @@ html {
   text-align: center;
   padding: 14px 16px;
   margin-right: 100px;
-  font-size: 1rem;
   line-height: 26px;
   float: left;
 }
@@ -123,7 +146,6 @@ html {
   text-decoration-line: line-through;
 }
 
-/*SECOND SECTION*/
 .second-section {
   background-image: url(../images/why-choose-us-section-2.png);
   background-repeat: no-repeat;
@@ -143,13 +165,9 @@ html {
   justify-content: center;
 }
 .second-section .second-section__h1 {
-  font-weight: 400;
-  font-size: 2.25rem;
   padding-top: 200px;
 }
 .second-section .second-section__p {
-  font-weight: 400;
-  font-size: 1.2rem;
   letter-spacing: 1.6px;
   color: #e8e8e8;
   width: 560px;
@@ -170,8 +188,6 @@ html {
   background: linear-gradient(to right, #496bfe, #5474fd);
   border: none;
   color: white;
-  font-weight: 400;
-  font-size: 1.2rem;
   cursor: pointer;
   margin-top: 40px;
 }
@@ -181,7 +197,6 @@ html {
   box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
 }
 
-/*THIRD SECTION*/
 .third-section {
   display: flex;
   flex-direction: row;
@@ -190,12 +205,9 @@ html {
 }
 .third-section .third-section__h2 {
   color: #e8e8e8;
-  font-size: 2.25rem;
-  font-weight: 400;
   padding: 140px;
 }
 
-/*SECTION FOUR*/
 .section-4 {
   background-image: url(../images/section-4-spain.png);
   background-repeat: no-repeat;
@@ -212,20 +224,9 @@ html {
   transform: translateY(100px) translateX(500px);
 }
 .section-4 .section-4__container .section-4__h4 {
-  font-weight: 400;
-  font-size: 1.25rem;
   letter-spacing: 1.5px;
 }
-.section-4 .section-4__container .section-4__h3 {
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-.section-4 .section-4__container .section-4__p {
-  font-weight: 400;
-  font-size: 1.2rem;
-}
 
-/*SECTION FIVE*/
 .section-5 {
   background-image: url(../images/section-5-spain-2.png);
   background-repeat: no-repeat;
@@ -242,20 +243,9 @@ html {
   transform: translateY(100px) translateX(1100px);
 }
 .section-5 .section-5__container .section-5__h4 {
-  font-weight: 400;
-  font-size: 1.25rem;
   letter-spacing: 1.5px;
 }
-.section-5 .section-5__container .section-5__h3 {
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-.section-5 .section-5__container .section-5__p {
-  font-weight: 400;
-  font-size: 1.2rem;
-}
 
-/*SECTION 6 TESTIMONIALS*/
 .section-6-testimonials {
   background-image: url(../images/section-6-what-they-say.png);
   background-repeat: no-repeat;
@@ -267,16 +257,9 @@ html {
   text-align: center;
 }
 .section-6-testimonials .section-6-testimonials__h1 {
-  font-weight: 400;
-  font-size: 2.25rem;
   padding-top: 80px;
 }
-.section-6-testimonials .section-6-testimonials__h3 {
-  font-weight: 400;
-  font-size: 1.25rem;
-}
 
-/*FOOTER*/
 .footer {
   background-color: #232323;
   width: 100%;
@@ -287,12 +270,8 @@ html {
   padding-top: 140px;
 }
 .footer .footer__h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
   letter-spacing: 3.36px;
 }
 .footer .footer__h3 {
-  font-weight: 400;
-  font-size: 1.2rem;
   letter-spacing: 1.6px;
 }
