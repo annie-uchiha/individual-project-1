@@ -1,5 +1,30 @@
-@media only screen and (min-width: 800px) and (max-width: 1694px) {
+@media only screen and (min-width: 1510px) and (max-width: 1700px) {
+  .navbar {
+    label {
+      margin-left: 10%;
+    }
+
+    li {
+      display: inline-block;
+      margin: 2px;
+
+      a {
+        margin-right: 10px;
+      }
+    }
+  }
+  .third-section {
+    .third-section__line {
+      width: 600px;
+      margin-left: 30%;
+    }
+
+    .third-section__h2 {
+      padding: 90px;
+      font-size: 1.5rem;
+    }
+  }
 }
 
-@media (max-width: 800px) {
+@media only screen and (min-width: 1347px) and (max-width: 1347px) {
 }

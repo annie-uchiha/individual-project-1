@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1510px) and (max-width: 1700px) {
+  .navbar label {
+    margin-left: 10%;
+  }
+  .navbar li {
+    display: inline-block;
+    margin: 2px;
+  }
+  .navbar li a {
+    margin-right: 10px;
+  }
+  .third-section .third-section__line {
+    width: 600px;
+    margin-left: 30%;
+  }
+  .third-section .third-section__h2 {
+    padding: 90px;
+    font-size: 1.5rem;
+  }
+}
