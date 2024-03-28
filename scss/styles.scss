@@ -160,7 +160,7 @@ html {
 
   label {
     letter-spacing: 2.4px;
-    margin-left: 400px;
+    margin-left: 20%;
   }
 
   ul {
@@ -464,6 +464,10 @@ html {
     a {
       color: white;
       padding: 10px;
+
+      .fa-linkedin {
+        color: #496bfe;
+      }
     }
   }
 }

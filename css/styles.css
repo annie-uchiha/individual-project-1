@@ -125,7 +125,7 @@ html {
 }
 .navbar label {
   letter-spacing: 2.4px;
-  margin-left: 400px;
+  margin-left: 20%;
 }
 .navbar ul {
   list-style: none;
@@ -381,4 +381,7 @@ html {
 .footer .footer__social a {
   color: white;
   padding: 10px;
+}
+.footer .footer__social a .fa-linkedin {
+  color: #496bfe;
 }
