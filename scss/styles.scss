@@ -215,10 +215,10 @@ html {
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 40px;
-  &:hover{
+  &:hover {
     border: 10px solid #496bfe;
     -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-      box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+    box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   }
 }
 
@@ -300,5 +300,52 @@ html {
       font-weight: 400;
       font-size: 1.2rem;
     }
+  }
+}
+
+/*SECTION 6 TESTIMONIALS*/
+
+.section-6-testimonials {
+  background-image: url(../images/section-6-what-they-say.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  margin-block-start: -25px;
+  color: $textColor;
+  text-align: center;
+
+  .section-6-testimonials__h1 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    padding-top: 80px;
+  }
+
+  .section-6-testimonials__h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+}
+
+/*FOOTER*/
+.footer {
+  background-color: $footerColor;
+  width: 100%;
+  height: 271px;
+  display: block;
+  color: $textColor;
+  text-align: center;
+  padding-top: 140px;
+
+  .footer__h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 3.36px;
+  }
+
+  .footer__h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1.6px;
   }
 }
