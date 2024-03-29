@@ -28,7 +28,6 @@
     display: none;
   }
   .third-section .fa-circle-check {
-    color: #ff6363;
     margin: 0 20%;
   }
   .third-section .third-section__container .third-section__h2 {
@@ -57,6 +56,16 @@
   }
   .navbar label {
     margin-left: 45%;
+  }
+  .third-section .third-section__line {
+    display: none;
+  }
+  .third-section .fa-circle-check {
+    margin: 0 20%;
+  }
+  .third-section .third-section__container .third-section__h2 {
+    font-size: 1.5rem;
+    margin: 0 -30%;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1320px) {
