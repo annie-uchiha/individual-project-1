@@ -211,16 +211,13 @@ html {
 }
 
 .third-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
 }
 .third-section .third-section__line {
   width: 800px;
   height: 99px;
   margin-top: 40px;
   margin-left: 35.6%;
-  align-items: center;
 }
 .third-section .third-section__icons {
   display: -webkit-box;
