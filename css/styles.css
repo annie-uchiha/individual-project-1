@@ -1,5 +1,6 @@
 html {
   scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 .fw400 {
@@ -106,6 +107,13 @@ html {
 }
 .scroll-down-arrow:hover {
   scale: 2;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
 }
 
 .navbar {

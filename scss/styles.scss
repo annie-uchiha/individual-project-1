@@ -7,6 +7,7 @@ $colors: #496bfe, #5474fd;
 
 html {
   scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 //FONT STYLES
@@ -142,6 +143,13 @@ html {
 }
 
 //NAVBAR
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+}
 
 .navbar {
   background-color: $navbarColor;
