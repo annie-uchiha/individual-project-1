@@ -109,12 +109,6 @@ html {
   scale: 2;
 }
 
-@media (max-width: 960px) {
-  .top-page__search-input {
-    width: 400px;
-    margin-bottom: 20px;
-  }
-}
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -216,29 +210,6 @@ html {
   box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
 }
 
-@media (max-width: 960px) {
-  .second-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .second-section .second-section__h1 {
-    margin-left: 15%;
-  }
-  .second-section .second-section__p {
-    margin-left: 15%;
-  }
-  .second-section .second-section__img1 {
-    margin-left: 30%;
-  }
-  .second-section .second-section__img2 {
-    margin-left: 40%;
-    transform: translateY(-200px);
-  }
-  .second-section .blue-gradient-btn {
-    margin-left: 15%;
-  }
-}
 .third-section {
   display: block;
 }
@@ -307,19 +278,6 @@ html {
   padding: 140px;
 }
 
-@media (max-width: 960px) {
-  .third-section .third-section__line {
-    display: none;
-  }
-  .third-section .fa-circle-check {
-    color: #ff6363;
-    margin: 0 20%;
-  }
-  .third-section .third-section__container .third-section__h2 {
-    font-size: 1.5rem;
-    margin: 0 -40%;
-  }
-}
 .section-4 {
   background-image: url(../images/section-4-spain.png);
   background-repeat: no-repeat;
@@ -342,11 +300,6 @@ html {
   letter-spacing: 1.5px;
 }
 
-@media (max-width: 960px) {
-  .section-4 .section-4__container {
-    margin-left: 15%;
-  }
-}
 .section-5 {
   background-image: url(../images/section-5-spain-2.png);
   background-repeat: no-repeat;
@@ -369,11 +322,6 @@ html {
   letter-spacing: 1.5px;
 }
 
-@media (max-width: 960px) {
-  .section-5 .section-5__container {
-    margin-left: 15%;
-  }
-}
 .section-6-testimonials {
   background-image: url(../images/section-6-what-they-say.png);
   background-repeat: no-repeat;
@@ -420,17 +368,6 @@ html {
   padding-right: 15px;
 }
 
-@media (max-width: 960px) {
-  .section-6-testimonials .section-6 {
-    flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    margin-left: 10%;
-  }
-  .section-6-testimonials .section-6-testimonials__testimonial {
-    width: 600px;
-  }
-}
 .footer {
   background-color: #232323;
   width: 100%;
