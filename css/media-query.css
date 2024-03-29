@@ -1,20 +1,29 @@
 @media only screen and (min-width: 1510px) and (max-width: 1700px) {
-  .navbar label {
+  label {
     margin-left: 10%;
   }
-  .navbar li {
+  li {
     display: inline-block;
     margin: 2px;
   }
-  .navbar li a {
+  li a {
     margin-right: 10px;
   }
-  .third-section .third-section__line {
-    width: 600px;
-    margin-left: 30%;
+}
+.third-section .third-section__line {
+  width: 600px;
+  margin-left: 30%;
+}
+.third-section .third-section__h2 {
+  padding: 90px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1510px) {
+  .third-section__line {
+    display: none;
   }
-  .third-section .third-section__h2 {
-    padding: 90px;
-    font-size: 1.5rem;
+  .third-section__h2 {
+    font-size: 1rem;
   }
 }

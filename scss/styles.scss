@@ -114,8 +114,8 @@ html {
 .fa {
   color: white;
 
-  &hover {
-    color: $navbarColor;
+  &:hover {
+    color: #ff6363;
   }
 }
 
@@ -266,13 +266,16 @@ html {
 //THIRD SECTION
 
 .third-section {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .third-section__line {
     width: 800px;
     height: 99px;
     margin-top: 40px;
     margin-left: 35.6%;
+    align-items: center;
   }
 
   .third-section__icons {

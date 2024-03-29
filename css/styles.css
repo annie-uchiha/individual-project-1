@@ -84,8 +84,8 @@ html {
 .fa {
   color: white;
 }
-.fahover {
-  color: #5474fd;
+.fa:hover {
+  color: #ff6363;
 }
 
 .top-page__scroll-down {
@@ -211,13 +211,16 @@ html {
 }
 
 .third-section {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .third-section .third-section__line {
   width: 800px;
   height: 99px;
   margin-top: 40px;
   margin-left: 35.6%;
+  align-items: center;
 }
 .third-section .third-section__icons {
   display: -webkit-box;
