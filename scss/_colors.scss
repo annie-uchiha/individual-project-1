@@ -4,3 +4,8 @@ $textColor: white;
 
 $direction: to right;
 $colors: #496bfe, #5474fd;
+
+@mixin box-shadow {
+  -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+}

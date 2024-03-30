@@ -40,8 +40,7 @@ html {
   .top-page__search-btn {
     background-color: #5474fd;
     border: 1px solid white;
-    -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-    box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+    @include box-shadow;
     width: 153px;
     height: 63px;
     color: $textColor;
@@ -49,8 +48,7 @@ html {
     cursor: pointer;
 
     &:hover {
-      -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-      box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74) inset;
+      @include box-shadow;
       border: none;
     }
   }
@@ -184,8 +182,7 @@ html {
 
   &:hover {
     border: 10px solid #496bfe;
-    -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-    box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
+    @include box-shadow;
   }
 }
 

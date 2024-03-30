@@ -77,7 +77,7 @@ html {
 }
 .top-page .top-page__search-btn:hover {
   -webkit-box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
-  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74) inset;
+  box-shadow: 10px 10px 4px rgba(4, 21, 37, 0.74);
   border: none;
 }
 
