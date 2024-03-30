@@ -1,3 +1,7 @@
+@use "mixins" as *;
+@use "fonts" as *;
+@use "colors" as *;
+
 @media (max-width: 960px) {
   .top-page__search-input {
     width: 400px;

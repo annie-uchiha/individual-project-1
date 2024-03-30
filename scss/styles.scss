@@ -1,18 +1,11 @@
-$navbarColor: #5474fd;
-$footerColor: #232323;
-$textColor: white;
-
-$direction: to right;
-$colors: #496bfe, #5474fd;
-
 @use "mixins" as *;
 @use "fonts" as *;
+@use "colors" as *;
 
 html {
   scroll-padding-top: 100px;
   scroll-behavior: smooth;
 }
-
 
 //TOP PAGE - FIRST SECTION
 
@@ -107,15 +100,7 @@ html {
   background-color: $navbarColor;
   width: 100%;
   color: $textColor;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  @include flex-space-between-center;
   z-index: 2;
 
   label {
@@ -153,21 +138,10 @@ html {
 
 .second-section {
   background-image: url(../images/why-choose-us-section-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bg-cover-center;
   padding: 20px;
   color: $textColor;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flex-row-center;
 
   .second-section__h1 {
     padding-top: 200px;
@@ -228,16 +202,7 @@ html {
   }
 
   .third-section__icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    @include flex-row-center;
     font-size: 4rem;
     color: white;
     -webkit-transform: translateY(50px);
@@ -275,17 +240,7 @@ html {
 }
 
 .third-section__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
+  @include flex-row-center;
 }
 
 .third-section__h2 {
@@ -297,9 +252,7 @@ html {
 
 .section-4 {
   background-image: url(../images/section-4-spain.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bg-cover-center;
   height: 700px;
   color: #e8e8e8;
 
@@ -325,9 +278,7 @@ html {
 
 .section-5 {
   background-image: url(../images/section-5-spain-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bg-cover-center;
   height: 700px;
   color: #e8e8e8;
 
@@ -351,9 +302,7 @@ html {
 
 .section-6-testimonials {
   background-image: url(../images/section-6-what-they-say.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include bg-cover-center;
   height: 800px;
   -webkit-margin-before: -28px;
   margin-block-start: -28px;
@@ -365,16 +314,7 @@ html {
   }
 
   .section-6 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    @include flex-row-center;
   }
 
   .section-6-testimonials__testimonial {

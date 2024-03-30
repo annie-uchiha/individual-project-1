@@ -1,3 +1,39 @@
+.fw400 {
+  font-weight: 400;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fs1 {
+  font-size: 1rem;
+}
+
+.fs1-2 {
+  font-size: 1.2rem;
+}
+
+.fs1-25 {
+  font-size: 1.25rem;
+}
+
+.fs1-4 {
+  font-size: 1.4rem;
+}
+
+.fs1-5 {
+  font-size: 1.5rem;
+}
+
+.fs2-50 {
+  font-size: 2.5rem;
+}
+
+.fs3 {
+  font-size: 3rem;
+}
+
 @media (max-width: 960px) {
   .top-page__search-input {
     width: 400px;
