@@ -1,5 +1,8 @@
 # individual-project-1
 This is the individual project.
+
+Beetroot Academy Front-end development course
+
 Design:
 https://www.figma.com/file/1BSnMdtAs2CzDnjqAwHkQL/project1?type=design&node-id=0-1&mode=design&t=4DM108oaCFBf8gxZ-0
 
