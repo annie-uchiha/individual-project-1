@@ -1,5 +1,5 @@
 # individual-project-1
-This is the individual project.
+This is the first individual project.
 
 Beetroot Academy Front-end development course
 
